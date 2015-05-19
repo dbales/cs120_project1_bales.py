@@ -1,5 +1,5 @@
 print
-print('         XXX PYTHON   GPA   CALCULATOR XXX      ')
+print('         XXX PYTHON   GPA   CALCULATORXXX      ')
 print
 print
 #function that gets the input and spits out output
@@ -10,18 +10,19 @@ C = 2
 D = 1
 F = 0 
 
-
-def class1():
-class1 = raw_input('What is the title of the class?:  ')
-creditHr1 = int(raw_input('And how many credit hours  was this course?:  '))
+#input for 1st course.
+print('Welcome! Let\s get started. ')
+class1 = raw_input('Enter the title of the 1st course?:  ')
+creditHr1 = int(raw_input('And how many credit hours was the course?:  '))
 grade1 =raw_input('and what grade did you earn?: ')
+print('Course: %6s Credit Hrs: %2d Grade: %S' ) % (class1, creditHr1, grade1 )
 
-def class2():
-class2 = raw_input('What is the title of the class?')
-creditHr2 = int(raw_input('And how many credit hours  was this course?'))
-grade2 =raw_input('and what grade did you earn?')
+###input for 2nd course.
+class2 = raw_input('Now for the second course:   ')
+creditHr2 = int(raw_input('How many credit hours was this course?'))
+grade2 =raw_input('And grade earned?')
 
-def class3():
-class3 = raw_input('What is the title of the class?')
-creditHr3 = int(raw_input('And how many credit hours  was this course?'))
-grade3 =raw_input('and what grade did you earn?')
+###input for 3rd course.
+class3 = raw_input('and the third course?:   ')
+creditHr3 = int(raw_input('Number of credit hours?:  '))
+grade3 =raw_input('Grade?:   ')
