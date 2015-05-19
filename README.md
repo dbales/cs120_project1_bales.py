@@ -37,7 +37,7 @@ GPA Calculator
 
         Name your file as cs120_project1_yourlastname.py
 
-        Email project 1 to fsun@bsu.edu by Tue, 5:00 PM.
+        Email project 1 to [redacted] by Tue, 5:00 PM.
         Indicate this is for CS 120 project 1 in the email subject.
 
     A simple demo in the class.
